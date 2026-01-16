@@ -100,7 +100,7 @@ export default function About() {
               <div>
                 <p className="text-foreground mb-2 text-base font-bold">Conference Chair</p>
                 <p className="font-semibold">Dr. Subhash K. Shinde</p>
-                <p className="text-sm">Principal</p>
+                <p className="text-sm">Principal, Lokmanya Tilak College of Engineering</p>
               </div>
             </div>
           </div>

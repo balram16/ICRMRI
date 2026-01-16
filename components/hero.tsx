@@ -40,7 +40,7 @@ export default function Hero() {
 
         <section className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-background border-t border-border">
           <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-6xl sm:text-7xl font-bold text-foreground mb-4">Coming Soon</h2>
+            <h2 className="font-bold text-foreground mb-4 text-4xl">Coming Soon</h2>
             <p className="text-lg sm:text-xl text-muted-foreground">Hold tight, something amazing is on the way!</p>
           </div>
         </section>

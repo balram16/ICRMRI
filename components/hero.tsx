@@ -18,9 +18,9 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance mb-6 text-foreground leading-tight">
-          2nd International Conference on Recent Trends in{" "}
-          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Multidisciplinary Research & Innovation
+          2<sup>nd</sup> International Conference on Recent Trends in{" "}
+          <span className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance mb-6 text-foreground leading-tight">
+            Multidisciplinary Research &amp; Innovation
           </span>
         </h1>
 
@@ -38,12 +38,12 @@ export default function Hero() {
           </button>
         </div>
 
-<section className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-background border-t border-border">
-      <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-6xl sm:text-7xl font-bold text-foreground mb-4">Coming Soon</h2>
-        <p className="text-lg sm:text-xl text-muted-foreground">Hold tight, something amazing is on the way!</p>
-      </div>
-    </section>
+        <section className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-background border-t border-border">
+          <div className="max-w-7xl mx-auto text-center">
+            <h2 className="text-6xl sm:text-7xl font-bold text-foreground mb-4">Coming Soon</h2>
+            <p className="text-lg sm:text-xl text-muted-foreground">Hold tight, something amazing is on the way!</p>
+          </div>
+        </section>
 
         {/* Conference Stats */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-12 pt-8">

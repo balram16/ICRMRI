@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="text-sm font-semibold text-foreground mb-4">Organized By</h4>
-            <p className="text-muted-foreground text-sm">Lokmanya Tilak College of Engineering, Navi Mumbai</p>
+            <p className="text-muted-foreground text-sm">Lokmanya Tilak College of Engineering, Sector 4, Vikas Nagar, Koparkhairane, Navi Mumbai - 400 079</p>
           </div>
         </div>
 

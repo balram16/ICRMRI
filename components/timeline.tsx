@@ -1,5 +1,5 @@
 const timeline = [
-  { date: "July 2026", event: "Call for Papers Released", status: "upcoming" },
+  { date: "July 2026", event: "Call for Papers", status: "upcoming" },
   { date: "September 2026", event: "Paper Submission Deadline", status: "upcoming" },
   { date: "October 2026", event: "Review & Notification of Acceptance", status: "upcoming" },
   { date: "November 2026", event: "Camera-Ready Submission", status: "upcoming" },
@@ -12,7 +12,7 @@ export default function Timeline() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-foreground">
-            Tentative <span className="text-primary">Dates</span>
+            Tentative <span className="text-foreground">Dates</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl">
             Mark your calendars and stay updated with key milestones
@@ -63,9 +63,7 @@ export default function Timeline() {
             <div>
               <p className="text-primary font-semibold mb-3">Publication Opportunities</p>
               <ul className="space-y-2 text-muted-foreground text-sm">
-                <li>✓ Conference proceedings published with reputed publishers</li>
-                <li>✓ Indexed in Scopus, Web of Science, IEEE, Springer, CRC, ISTE</li>
-                <li>✓ Selected papers invited for special journal issues</li>
+                <li>✓ All accepted and presented papers will be published in the conference proceedings </li>
               </ul>
             </div>
           </div>

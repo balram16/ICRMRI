@@ -1,8 +1,8 @@
 const timeline = [
-  { date: "29th May 2026", event: "Paper Submission Deadline", status: "upcoming" },
-  { date: "27th July 2026", event: "Acceptance Notification", status: "upcoming" },
-  { date: "17th August 2026", event: "Camera Ready Paper & Registration Deadline", status: "upcoming" },
-  { date: "30th to 31st October 2026", event: "Conference Dates", status: "highlight" },
+  { date: <>29<sup>th</sup> May 2026</>, event: "Paper Submission Deadline", status: "upcoming" },
+  { date: <>27<sup>th</sup> July 2026</>, event: "Acceptance Notification", status: "upcoming" },
+  { date: <>17<sup>th</sup> August 2026</>, event: "Camera Ready Paper & Registration Deadline", status: "upcoming" },
+  { date: <>30<sup>th</sup> to 31<sup>st</sup> October 2026</>, event: "Conference Dates", status: "highlight" },
 ]
 
 export default function Timeline() {

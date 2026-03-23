@@ -7,7 +7,7 @@ export default function ContactUs() {
             Contact <span className="text-primary">Us</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl">
-            Get in touch with us for any queries or support regarding the conference.
+            Get in touch with us for any queries or support regarding the conference
           </p>
         </div>
 

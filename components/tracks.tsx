@@ -15,13 +15,23 @@ export default function Tracks() {
   return (
     <section id="tracks" className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-card">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-12">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-foreground">
-            Technical <span className="text-primary">Tracks</span>
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl">
-            Explore cutting-edge research across diverse domains of computing and engineering
-          </p>
+        <div className="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
+          <div>
+            <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-foreground">
+              Technical <span className="text-primary">Tracks</span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl">
+              Explore cutting-edge research across diverse domains of computing and engineering
+            </p>
+          </div>
+          <div>
+            <a 
+              href="/sample-paper-format" 
+              className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg shadow-md hover:bg-primary/90 transition-all hover:scale-105"
+            >
+              Sample Paper Format
+            </a>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-4">

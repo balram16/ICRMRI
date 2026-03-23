@@ -26,7 +26,7 @@ export default function Navigation() {
             <h1 className="text-2xl font-bold text-white flex items-center leading-none">
               <span className="text-5xl mr-1"> </span>
               <span className="flex flex-col text-m tracking-widest font-bold">
-                <span>ICRMIR</span>
+                <span>ICRMRI</span>
                 <span>2026</span>
               </span>
             </h1>
@@ -68,9 +68,9 @@ export default function Navigation() {
             ))}
             <div className="block py-3">
               <div className="bg-white px-2 py-1 inline-block rounded-sm">
-                  <div className="border border-black px-1.5 py-0.5 text-[10px] font-bold text-black leading-tight">
-                      NAAC GRADE A
-                  </div>
+                <div className="border border-black px-1.5 py-0.5 text-[10px] font-bold text-black leading-tight">
+                  NAAC GRADE A
+                </div>
               </div>
             </div>
           </div>

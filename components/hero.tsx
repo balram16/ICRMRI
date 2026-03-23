@@ -11,27 +11,27 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-purple-900/40 mix-blend-overlay"></div>
 
         <div className="relative max-w-7xl mx-auto w-full py-12">
-          
+
           <div className="flex flex-col items-center xl:items-end xl:text-right w-full mb-12 sm:mb-20">
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-4 leading-tight drop-shadow-lg max-w-5xl">
-              2<sup>nd</sup> International Conference on <br className="hidden lg:block"/>
-              Recent Trends in Multidisciplinary <br className="hidden lg:block"/>
-              Research & Innovation <br className="hidden lg:block"/>
-              <span className="text-[#a0c4ff]">(ICRMIR),</span> <span className="text-[#ffb4a2]">2026</span>
+              2<sup>nd</sup> International Conference on <br className="hidden lg:block" />
+              Recent Trends in Multidisciplinary <br className="hidden lg:block" />
+              Research & Innovation <br className="hidden lg:block" />
+              <span className="text-[#a0c4ff]">(ICRMRI),</span> <span className="text-[#ffb4a2]">2026</span>
             </h1>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-end w-full">
-              {/* Info box */}
+            {/* Info box */}
 
 
-              
+
           </div>
         </div>
       </div>
 
       <div className="bg-background">
-        
+
         {/* Conference Stats */}
         <div className="max-w-7xl mx-auto text-center pb-20 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-12 pt-8">

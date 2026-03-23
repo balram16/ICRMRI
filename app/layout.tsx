@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ICRMIR-2026 | 2nd International Conference on Recent Trends in Multidisciplinary Research & Innovation",
+  title: "ICRMRI-2026 | 2nd International Conference on Recent Trends in Multidisciplinary Research & Innovation",
   description:
     "A premier international forum for researchers, academicians, industry professionals, and policymakers to present and discuss recent innovations in advanced computing and engineering technologies.",
   generator: "v0.app",

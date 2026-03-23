@@ -4,7 +4,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-foreground">
-            About <span className="text-primary">ICRMIR-2026</span>
+            About <span className="text-primary">ICRMRI-2026</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl">
             Fostering interdisciplinary collaboration and knowledge exchange at a global level

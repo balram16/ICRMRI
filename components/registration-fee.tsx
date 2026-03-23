@@ -73,12 +73,13 @@ export default function RegistrationFee() {
           <div className="p-6 space-y-4">
             <div className="grid sm:grid-cols-2 gap-4">
               {[
-                { label: "Payment Mode", value: "Online Transfer / UPI / Bank Transfer" },
-                { label: "Account Name", value: "—" },
-                { label: "Bank Name", value: "—" },
-                { label: "Account Number", value: "—" },
-                { label: "IFSC Code", value: "—" },
-                { label: "UPI ID / QR Code", value: "—" },
+                { label: "Payment Mode", value: "Online Transfer / Bank Transfer" },
+                { label: "Account Name", value: "Lokmanya Tilak College Of Engineering" },
+                { label: "Bank Name", value: "Indian Bank" },
+                { label: "Account Number", value: "50070855247" },
+                { label: "IFSC Code", value: "IDIB000V514" },
+                { label: "MICR Code", value: "400019101" },
+                { label: "Branch", value: "Vashi Branch, Navi Mumbai 400 703" },
               ].map((item) => (
                 <div key={item.label} className="flex flex-col gap-1 p-3 bg-background rounded-lg border border-border">
                   <span className="text-xs text-muted-foreground font-semibold uppercase tracking-wider">{item.label}</span>

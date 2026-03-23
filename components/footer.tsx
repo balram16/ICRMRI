@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-lg font-bold text-foreground mb-4">ICRMIR-2026</h3>
+            <h3 className="text-lg font-bold text-foreground mb-4">ICRMRI-2026</h3>
             <p className="text-muted-foreground text-sm">
               A premier international platform for advancing computing and engineering research.
             </p>
@@ -62,7 +62,7 @@ export default function Footer() {
 
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-muted-foreground text-sm">© 2026 ICRMIR. All rights reserved. </p>
+            <p className="text-muted-foreground text-sm">© 2026 ICRMRI. All rights reserved. </p>
             <div className="flex gap-6 text-sm text-muted-foreground">
               <a href="#" className="hover:text-primary transition-colors">
                 Privacy Policy

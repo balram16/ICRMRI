@@ -1,8 +1,8 @@
-# ICRMIR-2026 Conference Website
+# ICRMRI-2026 Conference Website
 
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/codiverse0110-gmailcoms-projects/v0-icrmir-2026-conference-website)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/codiverse0110-gmailcoms-projects/v0-ICRMRI-2026-conference-website)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/rrQ0nf4Xh0I)
 
 ## Overview
@@ -14,7 +14,7 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**[https://vercel.com/codiverse0110-gmailcoms-projects/v0-icrmir-2026-conference-website](https://vercel.com/codiverse0110-gmailcoms-projects/v0-icrmir-2026-conference-website)**
+**[https://vercel.com/codiverse0110-gmailcoms-projects/v0-ICRMRI-2026-conference-website](https://vercel.com/codiverse0110-gmailcoms-projects/v0-ICRMRI-2026-conference-website)**
 
 ## Build your app
 

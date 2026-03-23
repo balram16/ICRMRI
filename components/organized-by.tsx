@@ -19,18 +19,18 @@ export default function OrganizedBy() {
               <div>
                 <p className="text-foreground mb-2 text-base font-bold">Chief Patron</p>
                 <p className="text-base font-semibold">Dr. Satish Chaturvedi</p>
-                <p className="text-sm">Chairman Lokmanya Tilak Jankalyan Shikshan Sanstha</p>
+                <p className="text-sm">Chairman, Lokmanya Tilak Jankalyan Shikshan Sanstha</p>
                 <p className="mt-2 font-semibold">Smt. Abha Chaturvedi</p>
-                <p className="text-sm">Secretary Lokmanya Tilak Jankalyan Shikshan Sanstha</p>
+                <p className="text-sm">Secretary, Lokmanya Tilak Jankalyan Shikshan Sanstha</p>
               </div>
 
               {/* Patron section */}
               <div>
                 <p className="text-foreground mb-2 text-base font-bold">Patron</p>
                 <p className="font-semibold">Shree Dushyant Chaturvedi</p>
-                <p className="text-sm">Director(GB) Lokmanya Tilak Jankalyan Shikshan Sanstha</p>
+                <p className="text-sm">Director (GB), Lokmanya Tilak Jankalyan Shikshan Sanstha</p>
                 <p className="mt-2 font-semibold">Smt. Sheetal Chaturvedi</p>
-                <p className="text-sm">Director Lokmanya Tilak Jankalyan Shikshan Sanstha</p>
+                <p className="text-sm">Director, Lokmanya Tilak Jankalyan Shikshan Sanstha</p>
               </div>
 
               {/* Conference Chair */}

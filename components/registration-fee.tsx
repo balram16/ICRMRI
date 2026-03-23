@@ -17,7 +17,6 @@ export default function RegistrationFee() {
           <div className="bg-card border border-border rounded-xl overflow-hidden shadow-lg">
             <div className="bg-primary/10 px-6 py-4 border-b border-border">
               <h3 className="text-xl font-bold text-foreground">Online Presentation <span className="text-sm font-normal text-muted-foreground">(Single Author*)</span></h3>
-              <p className="text-sm text-primary font-semibold mt-1">International: $25</p>
             </div>
             <div className="divide-y divide-border">
               {[
@@ -25,6 +24,8 @@ export default function RegistrationFee() {
                 { category: "Research Scholars", fee: "₹ 1,200" },
                 { category: "Academicians", fee: "₹ 1,500" },
                 { category: "Industry Persons", fee: "₹ 1,800" },
+                { category: "International Participant", fee: "$ 25" },
+                { category: "Additional Author", fee: "₹ 250" },
               ].map((item) => (
                 <div key={item.category} className="flex justify-between items-center px-6 py-4 hover:bg-primary/5 transition-colors">
                   <span className="text-foreground font-medium">{item.category}</span>
@@ -38,7 +39,6 @@ export default function RegistrationFee() {
           <div className="bg-card border border-border rounded-xl overflow-hidden shadow-lg">
             <div className="bg-primary/10 px-6 py-4 border-b border-border">
               <h3 className="text-xl font-bold text-foreground">Offline Presentation <span className="text-sm font-normal text-muted-foreground">(Single Author*)</span></h3>
-              <p className="text-sm text-primary font-semibold mt-1">International: $50</p>
             </div>
             <div className="divide-y divide-border">
               {[
@@ -46,6 +46,8 @@ export default function RegistrationFee() {
                 { category: "Research Scholars", fee: "₹ 1,500" },
                 { category: "Academicians", fee: "₹ 1,800" },
                 { category: "Industry Persons", fee: "₹ 2,000" },
+                { category: "International Participant", fee: "$ 50" },
+                { category: "Additional Author", fee: "₹ 250" },
               ].map((item) => (
                 <div key={item.category} className="flex justify-between items-center px-6 py-4 hover:bg-primary/5 transition-colors">
                   <span className="text-foreground font-medium">{item.category}</span>
@@ -56,14 +58,7 @@ export default function RegistrationFee() {
           </div>
         </div>
 
-        {/* Additional Author */}
-        <div className="bg-card border border-border rounded-xl p-6 mb-12 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg">
-          <div>
-            <h3 className="text-lg font-bold text-foreground">*Additional Author</h3>
-            
-          </div>
-          <span className="text-2xl font-bold text-primary">₹ 250 <span className="text-sm font-normal text-muted-foreground">per Author</span></span>
-        </div>
+
 
         {/* Payment Details */}
         <div className="bg-card border border-border rounded-xl overflow-hidden shadow-lg">

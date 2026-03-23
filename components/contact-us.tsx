@@ -13,11 +13,11 @@ export default function ContactUs() {
 
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-card border border-border p-8 rounded-xl shadow-lg">
-            <h3 className="text-2xl font-bold text-foreground mb-6">Conference Coordinators</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-6"></h3>
             <div className="space-y-6">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-border pb-6">
                 <div>
-                  <p className="text-lg font-semibold text-foreground">Dr. Sheeba.P.S</p>
+                  <p className="text-lg font-semibold text-foreground">Dr. Sheeba P.S</p>
                 </div>
                 <div>
                   <a href="mailto:sheebaps@ltce.in" className="text-primary hover:underline flex items-center gap-2">
@@ -45,8 +45,8 @@ export default function ContactUs() {
              <h3 className="text-2xl font-bold text-foreground mb-6">Venue Location</h3>
              <p className="text-lg text-muted-foreground leading-relaxed">
                 <span className="text-foreground font-semibold">Lokmanya Tilak College of Engineering</span><br/>
-                Sector 4, Vikas Nagar, Kopar Khairane,<br/>
-                Navi Mumbai - 400 079
+                Sector 4, Vikas Nagar, KoparKhairane,<br/>
+                Navi Mumbai - 400709
              </p>
           </div>
         </div>

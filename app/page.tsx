@@ -7,6 +7,7 @@ import Timeline from "@/components/timeline"
 import ComingSoon from "@/components/coming-soon"
 import ContactUs from "@/components/contact-us"
 import Footer from "@/components/footer"
+import OrganizedBy from "@/components/organized-by"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <About />
+      <OrganizedBy />
       <Tracks />
       <Timeline />
       <ComingSoon />

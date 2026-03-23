@@ -10,6 +10,7 @@ export default function Navigation() {
   const navItems = [
     { label: "HOME", href: "#home" },
     { label: "ABOUT", href: "#about" },
+    { label: "COMMITTEE", href: "#committee" },
     { label: "CALL FOR PAPERS", href: "#tracks" },
     { label: "IMPORTANT DATES", href: "#timeline" },
     { label: "REGISTRATION FEE", href: "#registration" },
@@ -33,12 +34,12 @@ export default function Navigation() {
           </div>
 
           {/* Desktop Menu - Spread Out */}
-          <div className="hidden xl:flex flex-1 justify-between items-center max-w-6xl mx-auto px-8">
+          <div className="hidden xl:flex flex-1 justify-end items-center gap-x-8 lg:gap-x-10 max-w-6xl mx-auto px-8">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-base xl:text-[16px] font-bold text-white tracking-wide hover:text-white/80 transition-colors whitespace-nowrap"
+                className="text-sm xl:text-[15px] font-bold text-white tracking-wide hover:text-white/80 transition-colors whitespace-nowrap"
               >
                 {item.label}
               </Link>

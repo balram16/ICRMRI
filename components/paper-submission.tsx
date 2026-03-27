@@ -13,7 +13,9 @@ export default function PaperSubmission() {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a
-            href="/submit-paper"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeM-a0SUWtQJUZa_F0V4fps1VOnrft1p9SS6ONM6hO9ivS9pQ/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-bold rounded-lg shadow-lg hover:bg-primary/90 transition-all hover:scale-105 w-full sm:w-auto text-lg"
           >
             <Upload className="w-5 h-5" />

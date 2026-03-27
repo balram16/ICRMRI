@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -44,10 +45,12 @@ export default function Navigation() {
                 {item.label}
               </Link>
             ))}
+            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="xl:hidden">
+          <div className="xl:hidden flex items-center gap-2">
+            <ThemeToggle />
             <button onClick={() => setIsOpen(!isOpen)} className="text-white hover:text-white/80">
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
@@ -80,4 +83,3 @@ export default function Navigation() {
     </nav>
   )
 }
-

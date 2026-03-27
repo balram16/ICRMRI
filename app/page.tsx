@@ -2,6 +2,7 @@ import Navigation from "@/components/navigation"
 import Hero from "@/components/hero"
 import About from "@/components/about"
 import Tracks from "@/components/tracks"
+import PaperSubmission from "@/components/paper-submission"
 import RegistrationFee from "@/components/registration-fee"
 import Timeline from "@/components/timeline"
 import ComingSoon from "@/components/coming-soon"
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <OrganizedBy />
       <Tracks />
+      <PaperSubmission />
       <Timeline />
       <ComingSoon />
       <RegistrationFee />

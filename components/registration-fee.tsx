@@ -24,12 +24,12 @@ export default function RegistrationFee() {
                 { category: "Research Scholars", fee: "₹ 1,200" },
                 { category: "Academicians", fee: "₹ 1,500" },
                 { category: "Industry Persons", fee: "₹ 1,800" },
-                { category: "International Participant", fee: "$ 25", highlight: true },
-                { category: "Additional Author", fee: "₹ 250", highlight: true },
+                { category: "International Participant", fee: "$ 25", highlightClass: "text-violet-600 dark:text-violet-400" },
+                { category: "Additional Author", fee: "₹ 250", highlightClass: "text-purple-600 dark:text-purple-400" },
               ].map((item: any) => (
                 <div key={item.category} className="flex justify-between items-center px-6 py-4 hover:bg-primary/5 transition-colors">
-                  <span className={`font-medium ${item.highlight ? "text-rose-600 dark:text-rose-400 font-bold" : "text-foreground"}`}>{item.category}</span>
-                  <span className={`font-bold ${item.highlight ? "text-rose-600 dark:text-rose-400" : "text-primary"}`}>{item.fee}</span>
+                  <span className={`font-medium ${item.highlightClass ? `${item.highlightClass} font-bold` : "text-foreground"}`}>{item.category}</span>
+                  <span className={`font-bold ${item.highlightClass ? item.highlightClass : "text-primary"}`}>{item.fee}</span>
                 </div>
               ))}
             </div>
@@ -46,12 +46,12 @@ export default function RegistrationFee() {
                 { category: "Research Scholars", fee: "₹ 1,500" },
                 { category: "Academicians", fee: "₹ 1,800" },
                 { category: "Industry Persons", fee: "₹ 2,000" },
-                { category: "International Participant", fee: "$ 50", highlight: true },
-                { category: "Additional Author", fee: "₹ 250", highlight: true },
+                { category: "International Participant", fee: "$ 50", highlightClass: "text-violet-600 dark:text-violet-400" },
+                { category: "Additional Author", fee: "₹ 250", highlightClass: "text-purple-600 dark:text-purple-400" },
               ].map((item: any) => (
                 <div key={item.category} className="flex justify-between items-center px-6 py-4 hover:bg-primary/5 transition-colors">
-                  <span className={`font-medium ${item.highlight ? "text-rose-600 dark:text-rose-400 font-bold" : "text-foreground"}`}>{item.category}</span>
-                  <span className={`font-bold ${item.highlight ? "text-rose-600 dark:text-rose-400" : "text-primary"}`}>{item.fee}</span>
+                  <span className={`font-medium ${item.highlightClass ? `${item.highlightClass} font-bold` : "text-foreground"}`}>{item.category}</span>
+                  <span className={`font-bold ${item.highlightClass ? item.highlightClass : "text-primary"}`}>{item.fee}</span>
                 </div>
               ))}
             </div>

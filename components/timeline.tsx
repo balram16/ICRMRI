@@ -63,8 +63,7 @@ export default function Timeline() {
             <div>
               <p className="text-primary font-semibold mb-3">Publication Opportunities</p>
               <ul className="space-y-2 text-muted-foreground text-sm">
-                <li>●	All accepted and presented papers will be forwarded for publishing in peer-reviewed
-Journals adhering to UGC CARE guidelines, subject to the journal’s review process
+                <li>●	All accepted and presented papers will be forwarded to the Research Cultural Society’s peer‑reviewed journal.
  </li>
  <li>●	 Selected papers will be published in Scopus/ Springer/Web of Science journals with additional fees, subjected to condition.</li>
  

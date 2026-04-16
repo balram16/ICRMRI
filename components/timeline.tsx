@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const timeline = [
   { date: <>29<sup>th</sup> May 2026</>, event: "Paper Submission Deadline", status: "upcoming" },
   { date: <>27<sup>th</sup> July 2026</>, event: "Acceptance Notification", status: "upcoming" },
@@ -48,8 +50,17 @@ export default function Timeline() {
           ))}
         </div>
 
-        <div className="mt-12 p-8 bg-card border border-border rounded-xl">
-          <h3 className="text-xl font-bold text-foreground mb-4">Paper Submission & Publication</h3>
+        <div className="mt-12 p-8 bg-card border border-border rounded-xl relative">
+          <div className="absolute top-4 right-4 md:top-8 md:right-8">
+            <Image 
+              src="/Research_Public_Society.png" 
+              alt="Research Public Society Logo" 
+              width={100} 
+              height={100} 
+              className="object-contain w-16 h-16 md:w-24 md:h-24"
+            />
+          </div>
+          <h3 className="text-xl font-bold text-foreground mb-6 pr-20 md:pr-32">Paper Submission & Publication</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <p className="text-primary font-semibold mb-3">Submission Process</p>

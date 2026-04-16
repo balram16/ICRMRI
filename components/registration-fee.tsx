@@ -84,7 +84,7 @@ export default function RegistrationFee() {
             </div>
             <div className="mt-6 p-4 bg-primary/5 border border-primary/20 rounded-lg">
               <p className="text-sm text-muted-foreground">
-                <span className="text-foreground font-semibold">Note:</span> After payment, kindly send the payment screenshot / transaction ID to the conference Email ID.
+                <span className="text-foreground font-semibold">Note:</span> After payment, kindly send the payment screenshot / transaction ID to the conference Email ID: <a href="mailto:icrmri@ltce.in" className="text-primary hover:underline font-medium">icrmri@ltce.in</a>.
               </p>
             </div>
           </div>

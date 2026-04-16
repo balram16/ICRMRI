@@ -23,13 +23,14 @@ export default function PaperSubmission() {
           </a>
           
           <a
-            href="/template.pdf"
+            href="/ICRMRI 2026 Paper Template.docx"
+            download="ICRMRI_2026_Paper_Template.docx"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-card text-foreground border-2 border-primary font-bold rounded-lg shadow-lg hover:bg-primary/10 transition-all hover:scale-105 w-full sm:w-auto text-lg"
           >
             <FileText className="w-5 h-5" />
-            Download PDF Template
+            Download Word Template
           </a>
         </div>
       </div>

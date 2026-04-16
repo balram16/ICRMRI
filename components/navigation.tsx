@@ -24,9 +24,9 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
         <div className="flex justify-between items-center h-24 w-full">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center mr-8">
+          <div className="flex-shrink-0 flex items-center mr-8 -ml-4 lg:-ml-10">
             <h1 className="text-2xl font-bold text-white flex items-center leading-none">
-              <span className="text-5xl mr-1"> </span>
+              <span className="text-5xl mr-1 "> </span>
               <span className="flex flex-col text-m tracking-widest font-bold">
                 <span>ICRMRI</span>
                 <span>2026</span>
@@ -35,7 +35,7 @@ export default function Navigation() {
           </div>
 
           {/* Desktop Menu - Spread Out */}
-          <div className="hidden xl:flex flex-1 justify-end items-center gap-x-8 lg:gap-x-10 max-w-6xl mx-auto px-8">
+          <div className="hidden xl:flex flex-1 justify-end items-center gap-x-5 xl:gap-x-7 2xl:gap-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.href}

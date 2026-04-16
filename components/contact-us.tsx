@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function ContactUs() {
   return (
     <section id="support" className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-background border-t border-border">
@@ -41,8 +43,17 @@ export default function ContactUs() {
             </div>
           </div>
           
-          <div className="bg-card border border-border p-8 rounded-xl shadow-lg">
-             <h3 className="text-2xl font-bold text-foreground mb-6">Venue Location</h3>
+          <div className="bg-card border border-border p-8 rounded-xl shadow-lg relative">
+             <div className="absolute top-4 right-4 md:top-8 md:right-8">
+               <Image 
+                 src="/ltcelogo.webp" 
+                 alt="LTCE Logo" 
+                 width={100} 
+                 height={100} 
+                 className="object-contain w-16 h-16 md:w-24 md:h-24"
+               />
+             </div>
+             <h3 className="text-2xl font-bold text-foreground mb-6 pr-20 md:pr-32">Venue Location</h3>
              <p className="text-lg text-muted-foreground leading-relaxed">
                 <span className="text-foreground font-semibold">Lokmanya Tilak College of Engineering</span><br/>
                 Sector 4, Vikas Nagar, KoparKhairane,<br/>

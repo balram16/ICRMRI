@@ -24,14 +24,7 @@ export default function Tracks() {
               Explore cutting-edge research across diverse domains of computing and engineering
             </p>
           </div>
-          <div>
-            <a 
-              href="/sample-paper-format" 
-              className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg shadow-md hover:bg-primary/90 transition-all hover:scale-105"
-            >
-              Sample Paper Format
-            </a>
-          </div>
+
         </div>
 
         <div className="grid md:grid-cols-2 gap-4">
@@ -53,7 +46,7 @@ export default function Tracks() {
         </div>
 
         <div className="mt-12 p-8 bg-background border border-border rounded-xl">
-          <h3 className="text-xl font-bold text-foreground mb-4">Conference Format</h3>
+          <h3 className="text-xl font-bold text-foreground mb-4">Conference Structure</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div>
               <p className="text-sm text-primary font-semibold mb-2">Presentations</p>

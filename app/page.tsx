@@ -1,4 +1,5 @@
 import Navigation from "@/components/navigation"
+import AnnouncementBar from "@/components/announcement-bar"
 import Hero from "@/components/hero"
 import About from "@/components/about"
 import Tracks from "@/components/tracks"
@@ -13,6 +14,7 @@ import OrganizedBy from "@/components/organized-by"
 export default function Home() {
   return (
     <main className="w-full">
+      <AnnouncementBar />
       <Navigation />
       <Hero />
       <About />

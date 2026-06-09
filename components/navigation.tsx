@@ -29,7 +29,7 @@ export default function Navigation() {
   ]
 
   return (
-    <nav className="absolute w-full top-0 z-50 bg-transparent transition-all duration-300">
+    <nav className="absolute w-full top-[41px] sm:top-[45px] z-50 bg-transparent transition-all duration-300">
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24 w-full">
           {/* Logo */}

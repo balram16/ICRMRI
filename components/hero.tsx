@@ -13,6 +13,14 @@ export default function Hero() {
         <div className="relative max-w-7xl mx-auto w-full py-12">
 
           <div className="flex flex-col items-center xl:items-end xl:text-right w-full mb-12 sm:mb-20">
+            <div className="flex items-center gap-3 mb-8 px-5 py-2.5 rounded-full border border-white/20 bg-white/10 backdrop-blur-md shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:bg-white/15 hover:shadow-[0_0_25px_rgba(255,255,255,0.25)] transition-all duration-300">
+              <div className="bg-white rounded-full p-1 shadow-md">
+                <img src="/ISTE.png" alt="ISTE Logo" className="h-7 sm:h-9 w-auto object-contain rounded-full" />
+              </div>
+              <span className="text-sm sm:text-base font-bold text-white tracking-[0.2em] uppercase ml-1 drop-shadow-md">
+                ISTE Approved
+              </span>
+            </div>
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-4 leading-tight drop-shadow-lg max-w-5xl">
               2<sup>nd</sup> International Conference on <br className="hidden lg:block" />
               Recent Trends in Multidisciplinary <br className="hidden lg:block" />

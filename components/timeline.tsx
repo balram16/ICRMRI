@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 const timeline = [
-  { date: <>11<sup>th</sup> June 2026</>, event: "Paper Submission Deadline(Extended)", status: "upcoming" },
+  { date: <>11<sup>th</sup> July 2026</>, event: "Paper Submission Deadline(Extended)", status: "upcoming" },
   { date: <>27<sup>th</sup> July 2026</>, event: "Acceptance Notification", status: "upcoming" },
   { date: <>17<sup>th</sup> August 2026</>, event: "Camera Ready Paper & Registration Deadline", status: "upcoming" },
   { date: <>30<sup>th</sup> to 31<sup>st</sup> October 2026</>, event: "Conference Dates", status: "highlight" },
